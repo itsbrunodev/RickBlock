@@ -2,7 +2,7 @@
   "name": "AntiRickRoll",
   "version": "1.0",
   "description": "A chrome extension that doesn't let you get rick rolled.",
-  "manifest_version": 1,
+  "manifest_version": 3,
   "permissions": ["storage"],
   "icons": {
     "16": "icons/icon-16x16.png",
