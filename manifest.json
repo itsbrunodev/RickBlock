@@ -1,5 +1,5 @@
 {
-  "name": "AntiRickRoll",
+  "name": "RickBlock",
   "version": "1.0",
   "description": "A chrome extension that doesn't let you get rick rolled.",
   "manifest_version": 3,
