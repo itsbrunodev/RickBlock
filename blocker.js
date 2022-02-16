@@ -11,7 +11,16 @@
   ];
 
   chrome.storage.local.get(["disabled", "bypassed", "total"], (res) => {
-    if (!res.disabled && IDs.find((i) => location.href.includes(i))) {
+    if (
+      !res.disabled &&
+      IDs.find((i) => {
+        return (
+          location.href.includes(i) ||
+          location.pathname.includes(i) ||
+          location.search.includes(i)
+        );
+      })
+    ) {
       chrome.storage.local.set({ total: (res["total"] || 0) + 1 });
 
       if (!res.bypassed) {
