@@ -3,7 +3,7 @@
     if (history.length > 2) {
       history.go(-2);
     } else {
-      location.href = "about:blank";
+      location.href = "https://youtube.com";
     }
   });
 
