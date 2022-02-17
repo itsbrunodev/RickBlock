@@ -1,6 +1,6 @@
 ## RickBlock
 
-A chrome extension that doesn't let you get rick rolled
+A chrome extension that won't let you get rick rolled
 
 ## Bugs
 
