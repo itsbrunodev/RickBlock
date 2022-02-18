@@ -14,11 +14,7 @@
     if (
       !res.disabled &&
       IDs.find((i) => {
-        return (
-          location.href.includes(i) ||
-          location.pathname.includes(i) ||
-          location.search.includes(i)
-        );
+        return location.href.includes(i);
       })
     ) {
       chrome.storage.local.set({ total: (res["total"] || 0) + 1 });
