@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/brunolepis/RickBlock"><img src="https://brunolepis.xyz/rick-block.png" alt="RickBlock icon" height="72"/></a></p>
+<p align="center"><a href="https://github.com/brunolepis/RickBlock"><img src="https://brunolepis.xyz/rick-block.png" alt="RickBlock icon" height="65"/></a></p>
 <h1 align="center">RickBlock</h1>
 <p align="center">A chrome extension that won't let you get rick rolled.</p>
 
