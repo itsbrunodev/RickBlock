@@ -6,7 +6,7 @@
 
 ## :question: What's RickBlock?
 
-<a href="https://github.com/brunolepis/RickBlock" target="_blank">RickBlock</a> is a really simple **Chrome extension** that can block YouTube links that lead you to a <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">rick roll</a>! At the moment it can't block a <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">rick roll</a> that is loaded from YouTube directly, this issue will be solved soon.<br/><br/><br/>
+<a href="https://github.com/brunolepis/RickBlock" target="_blank">RickBlock</a> is a really simple **Chrome extension** that can block YouTube links that lead you to a <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">rick roll</a>! At the moment it can't block a <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">rick roll</a> that is loaded from YouTube directly, this issue will be solved soon.<br/><br/>
 
 ## :toolbox: How can I use RickBlock?
 
