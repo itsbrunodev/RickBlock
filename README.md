@@ -11,7 +11,7 @@
 ## :toolbox: How can I use RickBlock?
 
 **Step 1:** Download or clone the repository. If you've downloaded the repo then extract the `.zip` file.<br/>
-**Step 2:** If you're using a Chromium based browser then go to `chrome://extensions` and enable `Developer Mode` in the top right corner.<br/>
+**Step 2:** If you're using a <a href="https://chromiumchecker.com/" target="_blank">Chromium</a> based browser then go to `chrome://extensions` and enable `Developer Mode` in the top right corner.<br/>
 **Step 3:** Press the `Load unpacked` button in the top left corner.<br/>
 **Step 4:** Locate the extracted or cloned folder. Select it and press the `Select Folder` button.<br/>
 **Finally:** If you've done everything correctly then `RickBlock` should appear in the extension list.<br/>
