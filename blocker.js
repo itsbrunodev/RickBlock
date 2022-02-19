@@ -8,6 +8,7 @@
     "2ocykBzWDiM",
     "j5a0jTc9S10",
     "HPk-VhRjNI8",
+    "lYBUbBu4W08",
   ];
 
   chrome.storage.local.get(["disabled", "bypassed", "total"], (res) => {
