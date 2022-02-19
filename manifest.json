@@ -1,6 +1,6 @@
 {
   "name": "RickBlock",
-  "version": "1.1",
+  "version": "1.2",
   "description": "A chrome extension that won't let you get rick rolled.",
   "manifest_version": 3,
   "permissions": ["storage"],
@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "js": ["blocker.js"],
-      "matches": ["https://*.youtube.com/*"],
+      "matches": ["*://*/*"],
       "run_at": "document_start"
     }
   ],
