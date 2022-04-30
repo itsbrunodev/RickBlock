@@ -1,14 +1,14 @@
-<p align="center"><a href="https://github.com/brunolepis/RickBlock"><img src="https://brunolepis.xyz/rick-block.png" alt="RickBlock icon" height="65"/></a></p>
+<p align="center"><a href="https://github.com/brunolepis/RickBlock"><img src="https://brunolepis.xyz/rick-block.png" alt="RickBlock" height="65"/></a></p>
 <h1 align="center">RickBlock</h1>
 <p align="center">A chrome extension that won't let you get rick rolled.</p>
 
 <p align="center"><a href="https://github.com/brunolepis/RickBlock"><img src="https://brunolepis.xyz/rick-roll-detected.png" width="100%" /></a></p>
 
-## :question: What's RickBlock?
+## :question: About
 
-<a href="https://github.com/brunolepis/RickBlock" target="_blank">RickBlock</a> is a really simple **Chrome extension** that can block YouTube links that lead you to a <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">rick roll</a>! At the moment it can't block a <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">rick roll</a> that is loaded from YouTube directly, this issue will be fixed soon.<br/><br/>
+<a href="https://github.com/brunolepis/RickBlock" target="_blank">RickBlock</a> is a Chrome extension that blocks YouTube links that lead to a <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">rick roll</a>. It can't block a <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">rick roll</a> that is directly loaded from YouTube, this issue will be fixed soon.<br/><br/>
 
-## :toolbox: How can I use RickBlock?
+## :toolbox: How to use
 
 **Step 1:** Download or clone the repository. If you've downloaded the repo then extract the `.zip` file.<br/>
 **Step 2:** If you're using a <a href="https://brunolepis.xyz/chromium-checker" target="_blank">Chromium</a> based browser then go to `chrome://extensions` and enable `Developer Mode` in the top right corner.<br/>
