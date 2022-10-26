@@ -1,5 +1,5 @@
 (() => {
-  const youtube_ids = [
+  const youtubeIds = [
     "dQw4w9WgXcQ",
     "-51AfyMqnpI",
     "oHg5SJYRHA0",
@@ -175,6 +175,8 @@
     "MO7bRMa9bmA",
     "T14DQkV0fEQ",
     "QMW4AqbuSGg",
+    "H8ZH_mkfPUY",
+    "aYsgsSo1aow",
   ];
 
   const urls = [
@@ -187,24 +189,42 @@
   ];
 
   chrome.storage.local.get(["disabled", "bypassed", "total"], (res) => {
-    if (
-      (!res.disabled &&
-        youtube_ids.find((i) => {
-          return location.href.includes(i);
-        })) ||
-      (!res.disabled &&
-        urls.find((i) => {
-          return location.href.includes(i);
-        }))
-    ) {
-      chrome.storage.local.set({ total: (res["total"] || 0) + 1 });
+    let lastUrl = location.href;
 
-      if (!res.bypassed) {
-        location =
-          chrome.runtime.getURL("warn/warn.html") + "?" + location.href;
-      } else {
-        chrome.storage.local.set({ bypassed: false });
+    new MutationObserver(() => {
+      const url = location.href;
+      if (url !== lastUrl) {
+        lastUrl = url;
+        onUrlChange();
       }
+    }).observe(document, { subtree: true, childList: true });
+
+    const checkRickRoll = (locationHref) => {
+      if (
+        (!res.disabled &&
+          youtubeIds.find((i) => {
+            return locationHref.includes(i);
+          })) ||
+        (!res.disabled &&
+          urls.find((i) => {
+            return locationHref.includes(i);
+          }))
+      ) {
+        chrome.storage.local.set({ total: (res["total"] || 0) + 1 });
+
+        if (!res.bypassed) {
+          location =
+            chrome.runtime.getURL("warn/warn.html") + "?" + locationHref;
+        } else {
+          chrome.storage.local.set({ bypassed: false });
+        }
+      }
+    };
+
+    function onUrlChange() {
+      checkRickRoll(location.href);
     }
+
+    checkRickRoll(location.href);
   });
 })();
