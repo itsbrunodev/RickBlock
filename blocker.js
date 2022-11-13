@@ -177,15 +177,20 @@
     "QMW4AqbuSGg",
     "H8ZH_mkfPUY",
     "aYsgsSo1aow",
+    "UuFOxktAapc",
+    "UVjujsZaWsw",
+    "O91DT1pR1ew",
+    "BBJa32lCaaY",
+    "BT9h5ifR1tY",
+    "sXwaRjU7Tj0",
+    "tgTUtfb0Ok8",
+    "a8eU6hTAHEE",
+    "KPJDlgPA3TA",
   ];
 
   const urls = [
-    "https://rickrolled.com/",
-    "https://www.latlmes.com/",
     "https://rr.noordstar.me/",
-    "https://www.sanfransentinel.com/",
     "https://www.thisworldthesedays.com/",
-    "https://www.tomorrowtides.com/",
   ];
 
   chrome.storage.local.get(["disabled", "bypassed", "total"], (res) => {

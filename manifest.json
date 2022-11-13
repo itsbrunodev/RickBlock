@@ -1,6 +1,6 @@
 {
   "name": "RickBlock",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "A chrome extension that won't let you get rick rolled.",
   "manifest_version": 3,
   "permissions": ["storage"],
